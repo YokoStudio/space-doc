@@ -28,3 +28,18 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.menu__list-item-collapsible{
+  border-radius: 12px;
+}
+.menu__link{
+  padding: 12px;
+  border-radius: 12px;
+}
+.menu__caret{
+  border-radius: 0px 12px 12px 0px;
+}
+.cardContainer{
+  /* border: 6px solid #000; */
+}

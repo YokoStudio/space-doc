@@ -1,8 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
+title: What's Yoko Space
+slug: What's_Yoko_Space
+
 ---
 
-# Create a Blog Post
+
+# What's Yoko Space
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 

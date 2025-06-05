@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Yoko Space v1.1',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -123,20 +123,28 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Connect',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/YokoStudio',
             },
             {
-              label: 'GitHub',
+              label: 'Instagram',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+            {
+              label: 'Linkedin',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+            {
+              label: 'X',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Yoko Space. Made with LOVE ♥️ `,
     },
     prism: {
       theme: prismThemes.github,
