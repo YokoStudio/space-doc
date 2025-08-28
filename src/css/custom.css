@@ -21,6 +21,10 @@ body {
   --ifm-color-primary-lightest: #021CFC;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --s-text-1: #000 ;
+  --s-bg-footer: #fff;
+  --s-border-footer: #e1e1e1;
+  --s-logo:#000;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -33,6 +37,10 @@ body {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --s-text-1: #fff;
+  --s-bg-footer:#000;
+  --s-border-footer: #484848;
+  --s-logo:#fff;
 }
 
 
@@ -43,11 +51,11 @@ body {
   padding: 12px;
   border-radius: 12px;
   font-size: 14px;
-  color: var(color);
+  color: var(--ifm-space-text);
 
 }
 .menu__link--active{
-  color: #021CFC;
+  color: var(--ifm-color-primary);
   font-weight: bold;
 }
 
@@ -73,4 +81,8 @@ body {
 }
 h1 h2 h3 h4{
    font-family: 'Titillium Web', 'IBM Plex Sans Arabic', sans-serif;
+}
+.footer{
+  background-color: var(--ifm-space-footer);
+  border-top: var(--s-border-footer) 1px solid;
 }

@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Yoko Space v1.2',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Enabling organizations to Gain',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yoko', // Usually your GitHub org/user name.
+  projectName: 'space', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -75,7 +75,7 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Yoko Space v1',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,9 +85,13 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://yoko.studio/contact-us/',
+          label: 'Contact us',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/YokoStudio/space-react',
           label: 'GitHub',
           position: 'right',
         },
@@ -109,29 +113,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Connect',
-          items: [
-            {
               label: 'GitHub',
               href: 'https://github.com/YokoStudio',
             },
             {
               label: 'Instagram',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://Instagram.com/yokostudioteam',
             },
             {
               label: 'Linkedin',
@@ -139,7 +126,7 @@ const config: Config = {
             },
             {
               label: 'X',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://x.com/yokostudioteam',
             },
           ],
         },
