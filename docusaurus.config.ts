@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Yoko Space v1.1',
+  title: 'Yoko Space v1.2',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Yoko Space V1.1',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

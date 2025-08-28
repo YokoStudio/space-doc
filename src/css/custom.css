@@ -43,7 +43,14 @@ body {
   padding: 12px;
   border-radius: 12px;
   font-size: 14px;
+  color: var(color);
+
 }
+.menu__link--active{
+  color: #021CFC;
+  font-weight: bold;
+}
+
 .menu__caret{
   border-radius: 99px 99px 99px 99px;
   margin: 8px;
@@ -58,7 +65,8 @@ body {
   padding: 16px;
 }
 .navbar--fixed-top{
-  display: none;
+  /* display: none; */
+
 }
 .menu__list .menu__list{
   padding-left: 24px;
