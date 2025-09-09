@@ -73,21 +73,23 @@ const config: Config = {
   ],
 
   themeConfig: {
+    docs: {
+      
+      sidebar: {
+        autoCollapseCategories: true,
+        
+      },
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    // hideOnScroll:{true},
     navbar: {
-      title: '',
+      hideOnScroll:true,
       logo: {
         alt: 'Yoko Space v1',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
         {
           href: 'https://yoko.studio/contact-us/',
           label: 'Contact us',
