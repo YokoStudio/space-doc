@@ -3,6 +3,8 @@
  * and scoped locally.
  */
 
+@import url(../css/custom.css);
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -32,18 +34,18 @@
 }
 .comWrapper{
   width: 100%;
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 32px;
 }
 .con{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 90vh;
+  min-height: 70vh;
   align-items: ltr;
   max-width: 1200px;
   gap: 32px
@@ -51,6 +53,10 @@
 
 .heroLogo{
   width: 512px;
+  
+}
+.heroLogSvg{
+fill: var(--s-neutral-100) ;
 }
 .heroSection{
   display: flex;
@@ -63,5 +69,15 @@
   gap: 8px
 }
 .switchText{
-  color:#022be0
+  color: var(--ifm-color-primary)
+}
+  @media only screen and (max-width: 920px) {
+    .heroText{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+  }
+  .heroLogo{
+  width:256px;
+}
 }

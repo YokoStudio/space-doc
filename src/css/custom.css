@@ -21,10 +21,8 @@ body {
   --ifm-color-primary-lightest: #021CFC;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --s-text-1: #000 ;
-  --s-bg-footer: #fff;
-  --s-border-footer: #e1e1e1;
-  --s-logo:#000;
+  --s-neutral-0:#fff;
+  --s-neutral-100:#000;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -37,10 +35,8 @@ body {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --s-text-1: #fff;
-  --s-bg-footer:#000;
-  --s-border-footer: #484848;
-  --s-logo:#fff;
+  --s-neutral-0:#000;
+  --s-neutral-100:#fff;
 }
 
 
@@ -90,7 +86,7 @@ h1, h2, h3, h3, h5, h5{
 }
 .img_ev3q{
   border-radius: 12px;
-  border: 4px solid #000;
+  border: 4px solid var(--s-neutral-100);
 }
 h1{
   /* border:4px #000 solid;
