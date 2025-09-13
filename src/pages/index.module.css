@@ -81,3 +81,6 @@ fill: var(--s-neutral-100) ;
   width:256px;
 }
 }
+.navbar{
+  display: none;
+}

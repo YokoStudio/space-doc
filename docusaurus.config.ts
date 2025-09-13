@@ -68,11 +68,15 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 6,
+    },
     docs: {
       
       sidebar: {
@@ -80,6 +84,7 @@ const config: Config = {
         
       },
     },
+    
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     // hideOnScroll:{true},
@@ -102,6 +107,7 @@ const config: Config = {
         },
       ],
     },
+    
     footer: {
       style: 'light',
       links: [
