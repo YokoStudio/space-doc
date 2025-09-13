@@ -82,7 +82,7 @@ h1, h2, h3, h3, h5, h5{
 
 .footer{
   background-color: var(--ifm-space-footer);
-  border-top: var(--s-border-footer) 1px solid;
+  border-top: var(--ifm-color-emphasis-300) 1px solid;
 }
 .img_ev3q{
   border-radius: 12px;
