@@ -96,6 +96,11 @@ const config: Config = {
       },
       items: [
         {
+          href: 'https://blog.yoko.studio/',
+          label: 'Blog',
+          position: 'right',
+        },
+        {
           href: 'https://yoko.studio/contact-us/',
           label: 'Contact us',
           position: 'right',
