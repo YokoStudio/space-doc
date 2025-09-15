@@ -102,9 +102,17 @@ h1{
   font-weight: bold;
 }
 
-table td{
+@media (min-width: 997px){
+  @supports (scrollbar-gutter: stable){
+    .menu_SIkG{
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    }
+  }
+}
+table th{
   width: 100%;
 }
+
 
 /* .cardContainer_fWXF
 {
