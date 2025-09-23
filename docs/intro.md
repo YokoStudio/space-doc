@@ -4,44 +4,146 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+A modern React component library with space-themed UI components built with TypeScript and Tailwind CSS.
 
-## Getting Started
+Installation
+------------
 
-Get started by **creating a new site**.
+[](https://www.npmjs.com/package/@yokostudio/space-react#installation)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```source-shell
+npm install @yokostudio/space-react
+# or
+yarn add @yokostudio/space-react
+# or
+pnpm add @yokostudio/space-react
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Peer Dependencies
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+[](https://www.npmjs.com/package/@yokostudio/space-react#peer-dependencies)
 
-## Start your site
+This library requires the following peer dependencies to be installed in your project:
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```source-shell
+npm install react react-dom @headlessui/react @floating-ui/react framer-motion
+# or
+yarn add react react-dom @headlessui/react @floating-ui/react framer-motion
+# or
+pnpm add react react-dom @headlessui/react @floating-ui/react framer-motion
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Required peer dependencies:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+-   `react` >= 17.0.0
+-   `react-dom` >= 17.0.0
+-   `@headlessui/react` ^2.0.0
+-   `@floating-ui/react` ^0.27.0
+-   `framer-motion` ^12.0.0
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Usage
+-----
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#usage)
+
+### Basic Setup
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#basic-setup)
+
+```source-tsx
+import React from 'react';
+import { Button, Input, Badge } from '@yokostudio/space-react';
+import '@yokostudio/space-react/style';
+
+function App() {
+  return (
+    <div>
+      <Button>Click me</Button>
+      <Input placeholder="Enter text..." />
+      <Badge variant="primary">New</Badge>
+    </div>
+  );
+}
+```
+
+### Individual Component Imports
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#individual-component-imports)
+
+```source-tsx
+import { Button } from '@yokostudio/space-react';
+import '@yokostudio/space-react/style';
+```
+
+Components
+----------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#components)
+
+-   Badge - Status indicators and labels
+-   Button - Interactive buttons with various styles
+-   Input - Text input fields
+-   Textarea - Multi-line text input
+-   Checkbox - Checkbox inputs
+-   RadioGroup - Radio button groups
+-   Switch - Toggle switches
+-   Slider - Range sliders
+-   Dropdown - Dropdown menus
+-   Field - Form field wrapper
+-   Tab - Tab navigation
+-   Divider - Visual separators
+-   Tooltip - Contextual tooltips
+
+Requirements
+------------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#requirements)
+
+-   React >= 17.0.0
+-   React DOM >= 17.0.0
+-   @headlessui/react ^2.0.0
+-   @floating-ui/react ^0.27.0
+-   framer-motion ^12.0.0
+-   TypeScript (for type definitions)
+
+Styling
+-------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#styling)
+
+This library uses Tailwind CSS for styling. Make sure you have Tailwind CSS configured in your project, or import the styles:
+
+```source-tsx
+import '@yokostudio/space-react/style';
+```
+
+TypeScript Support
+------------------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#typescript-support)
+
+This library is built with TypeScript and includes full type definitions.
+
+License
+-------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#license)
+
+MIT
+
+Contributing
+------------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#contributing)
+
+Contributions are welcome! Please read our contributing guidelines.
+
+Changelog
+---------
+
+[](https://www.npmjs.com/package/@yokostudio/space-react#changelog)
+
+See [CHANGELOG.md](https://github.com/yokostudio/space-react/blob/HEAD/CHANGELOG.md) for a list of changes.
+
+Readme
+------
